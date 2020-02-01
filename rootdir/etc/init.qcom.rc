@@ -63,6 +63,9 @@ on init
     # Loading kernel modules in background
     start insmod_sh
 
+    # make the selinux kernel policy world-readable
+    chmod 0444 /sys/fs/selinux/policy
+    
 on early-boot
     # Wait for insmod_sh to finish all modules
     wait_for_prop vendor.all.modules.ready 1
