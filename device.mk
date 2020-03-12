@@ -529,3 +529,6 @@ PRODUCT_COPY_FILES += \
 # Mac Address Generator
 PRODUCT_PACKAGES += \
     wifi-mac-generator
+    
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
