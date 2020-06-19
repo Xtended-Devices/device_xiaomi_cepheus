@@ -1087,4 +1087,7 @@
     
     <!-- Default fod pressed color -->
     <integer name="config_fod_pressed_color">2</integer>  
+    
+    <!-- Enable dual LTE capability support-->
+    <bool name="config_dual_LTE_capability">true</bool>
 </resources>
