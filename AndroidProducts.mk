@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_cepheus.mk
+    $(LOCAL_DIR)/xtended_cepheus.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_cepheus-user \
-    dot_cepheus-userdebug \
-    dot_cepheus-eng
+    xtended_cepheus-user \
+    xtended_cepheus-userdebug \
+    xtended_cepheus-eng
