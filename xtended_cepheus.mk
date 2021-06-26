@@ -37,5 +37,11 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Official MSM-Xtended
+XTENDED_BUILD_TYPE := OFFICIAL
+
+# Maintainer
+XTENDED_BUILD_MAINTAINER := G.H.O.S.T
+
 # Include firmware
 $(call inherit-product, vendor/xiaomi/firmware/cepheus/firmware.mk)
