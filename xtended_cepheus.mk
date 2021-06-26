@@ -42,6 +42,3 @@ XTENDED_BUILD_TYPE := OFFICIAL
 
 # Maintainer
 XTENDED_BUILD_MAINTAINER := G.H.O.S.T
-
-# Include firmware
-$(call inherit-product, vendor/xiaomi/firmware/cepheus/firmware.mk)
